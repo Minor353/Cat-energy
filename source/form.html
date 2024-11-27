@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Energy || Подбор программы</title>
+</head>
+<body class="page__body">
+  <header class="main-header">
+    <a href="#" class="main-logo">
+      <img class="main-logo__image" src="#" alt="Логотип Cat Energy">
+      <img class="main-logo__name" src="#" alt="Cat Energy">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">открыть</button>
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a href="index.html" class="main-nav__link">главная</a></li>
+        <li class="main-nav__item"><a href="catalog.html" class="main-nav__link">каталог продукции</a></li>
+        <li class="main-nav__item"><a href="" class="main-nav__link">подбор программы</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="program">
+      <h1 class="program__title">Подбор программы</h1>
+      <p class="program__text">Заполните анкету, и мы подберем
+        программу питания для вашего кота</p>
+      <form class="form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="form__box">
+          <label class="form__label">
+            <span class="form__name">ИМЯ:*</span>
+            <input class="form__input" type="text" name="name" value="барсик">
+          </label>
+          <label class="form__label">
+            <span class="form__name">Вес (кг):*</span>
+            <input class="form__input" type="text" name="weight" value="7">
+          </label>
+          <label class="form__label">
+            <span class="form__name">Возраст (лет):</span>
+            <input class="form__input" type="text" name="age" value="7">
+          </label>
+        </div>
+        <div class="form__box">
+          <label class="form__label">
+            <input class="form__radio" type="radio" name="type" value="slim">
+            <span class="form__name">похудение</span>
+          </label>
+          <label class="form__label">
+            <input class="form__radio" type="radio" name="type" value="fat">
+            <span class="form__name">Набор массы</span>
+          </label>
+          <label class="form__label">
+            <input class="form__radio" type="radio" name="type" value="dot know">
+            <span class="form__name">Не знаю (Нужен ваш совет)</span>
+          </label>
+        </div>
+        <div class="form__box">
+          <fieldset class="form__group">
+            <legend class="form__group-title">Контактные данные (владельца кота)</legend>
+            <label class="form__label">
+              <span class="form__name">E-mail:*</span>
+              <input class="form__input" type="email" name="email" value="кuklachev@gmail.com">
+            </label>
+            <label class="form__label">
+              <span class="form__name">Телефон:*</span>
+              <input class="form__input" type="number" name="number" value="8 (960) 900-60-90">
+            </label>
+          </fieldset>
+        </div>
+        <div class="form__box">
+          <fieldset class="form__group">
+            <legend class="form__group-title">Комментарий</legend>
+            <label class="form__label">
+              <textarea class="form__textarea" name="comments" placeholder="Расскажите обо всех повадках кота"></textarea>
+            </label>
+          </fieldset>
+        </div>
+        <div class="form__box">
+          <fieldset class="form__group">
+            <legend class="form__group-title">Дополнительно</legend>
+            <label class="form__label">
+              <input class="form__checkbox" type="checkbox" name="sweetener">
+              <span class="form__name">сахарозаменитель</span>
+            </label>
+            <label class="form__label">
+              <input class="form__checkbox" type="checkbox" name="water">
+              <span class="form__name">питьевая вода</span>
+            </label>
+            <label class="form__label">
+              <input class="form__checkbox" type="checkbox" name="milk">
+              <span class="form__name">молоко</span>
+            </label>
+            <label class="form__label">
+              <input class="form__checkbox" type="checkbox" name="vitamins">
+              <span class="form__name">витамины</span>
+            </label>
+          </fieldset>
+        </div>
+        <button class="button" type="submit">отправить заявку</button>
+        <span class="form__notice">* — Обязательные поля</span>
+      </form>
+    </section>
+    <section class="contacts">
+      <h2 class="visualy-hidden">Контакты компании</h2>
+      <div class="contacts__address">
+        <h3 class="contacts__address-title">приглашаем к сотрудничеству дилеров!</h3>
+        <p class="contacts__address-text">ул. Большая
+          Конюшенная, д. 19/8
+          Санкт-Петербург</p>
+      </div>
+      <div class="contacts__map">
+        <img src="#" alt="Карта">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <a class="secondary-logo" href="#">
+      <img src="#" alt="Название компании">
+    </a>
+    <ul class="social">
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <img src="#" alt="vk">
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <img src="#" alt="insta">
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <img src="#" alt="fb">
+        </a>
+      </li>
+    </ul>
+    <a class="implementer-logo" href="#">
+      <span class="implementer-logo__text">HTML Academy</span>
+      <img src="#" alt="Логотип исполнителя">
+    </a>
+  </footer>
+</body>
+</html>
