@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea,
+fieldset,
+legend {
+  font-family: inherit;
+}
+/*# sourceMappingURL=style.css.map */
