@@ -1,0 +1,24 @@
+.main-nav {
+  position: relative;
+}
+
+.main-nav__toggle {
+  font-size: 0;
+  line-height: 0;
+  width: 24px;
+  height: 16px;
+  background-image: url("../../img/icons/burger.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  display: block;
+  padding: 0;
+  background-color: transparent;
+}
+
+.main-nav__list {
+  position: absolute;
+  display: none;
+}
