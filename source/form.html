@@ -44,18 +44,18 @@
         <div class="form__box">
           <label class="form__label">
             <input class="form__radio" type="radio" name="type" value="slim">
-            <span class="form__name">похудение</span>
+            <span class="form__radio-decor form__name">похудение</span>
           </label>
           <label class="form__label">
             <input class="form__radio" type="radio" name="type" value="fat">
-            <span class="form__name">Набор массы</span>
+            <span class="form__radio-decor form__name">Набор массы</span>
           </label>
           <label class="form__label">
             <input class="form__radio" type="radio" name="type" value="dot know">
-            <span class="form__name">Не знаю (Нужен ваш совет)</span>
+            <span class="form__radio-decor form__name">Не знаю (Нужен ваш совет)</span>
           </label>
         </div>
-        <div class="form__box">
+        <div class="form__box form__box-decor">
           <fieldset class="form__group">
             <legend class="form__group-title">Контактные данные (владельца кота)</legend>
             <label class="form__label">
@@ -64,11 +64,11 @@
             </label>
             <label class="form__label">
               <span class="form__name">Телефон:*</span>
-              <input class="form__input" type="number" name="number" value="8 (960) 900-60-90">
+              <input class="form__input" type="number" name="number" value="89609006090">
             </label>
           </fieldset>
         </div>
-        <div class="form__box">
+        <div class="form__box form__box-decor">
           <fieldset class="form__group">
             <legend class="form__group-title">Комментарий</legend>
             <label class="form__label">
@@ -76,32 +76,34 @@
             </label>
           </fieldset>
         </div>
-        <div class="form__box">
+        <div class="form__box form__box-decor">
           <fieldset class="form__group">
             <legend class="form__group-title">Дополнительно</legend>
             <label class="form__label">
               <input class="form__checkbox" type="checkbox" name="sweetener">
-              <span class="form__name">сахарозаменитель</span>
+              <span class="form__checkbox-decor form__name">сахарозаменитель</span>
             </label>
             <label class="form__label">
               <input class="form__checkbox" type="checkbox" name="water">
-              <span class="form__name">питьевая вода</span>
+              <span class="form__checkbox-decor form__name">питьевая вода</span>
             </label>
             <label class="form__label">
               <input class="form__checkbox" type="checkbox" name="milk">
-              <span class="form__name">молоко</span>
+              <span class="form__checkbox-decor form__name">молоко</span>
             </label>
             <label class="form__label">
               <input class="form__checkbox" type="checkbox" name="vitamins">
-              <span class="form__name">витамины</span>
+              <span class="form__checkbox-decor form__name">витамины</span>
             </label>
           </fieldset>
         </div>
-        <button class="button" type="submit">отправить заявку</button>
-        <span class="form__notice">* — Обязательные поля</span>
+        <div class="form__footer">
+          <button class="button" type="submit">отправить заявку</button>
+          <span class="form__notice">* — Обязательные поля</span>
+        </div>
       </form>
     </section>
-    <section class="contacts">
+    <section class="contacts contacts--grey">
       <h2 class="visually-hidden">Контакты компании</h2>
       <div class="contacts__address">
         <h3 class="contacts__address-title">приглашаем к сотрудничеству дилеров!</h3>

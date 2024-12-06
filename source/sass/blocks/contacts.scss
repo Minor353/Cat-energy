@@ -1,3 +1,8 @@
+.contacts {
+  margin: 0 -20px;
+  padding: 0 20px;
+}
+
 .contacts__address {
   display: flex;
   align-items: center;
@@ -26,4 +31,8 @@
   img {
     display: block;
   }
+}
+
+.contacts--grey {
+  background-color: $basic_grey;
 }
