@@ -165,7 +165,7 @@
     display: block;
     width: 18px;
     height: 14px;
-    background-image: url("/img/icons/ok.svg");
+    background-image: url("../../img/icons/ok.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -196,7 +196,7 @@
 }
 
 .form__input[type="email"] {
-  background-image: url("/img/icons/icon-email.svg");
+  background-image: url("../../img/icons/icon-email.svg");
   background-repeat: no-repeat;
   background-position: right 17px center;
   padding-right: 40px;
@@ -204,7 +204,7 @@
 
 
 .form__input[type="number"] {
-  background-image: url("/img/icons/icon-phone.svg");
+  background-image: url("../../img/icons/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: right 17px center;
   padding-right: 40px;

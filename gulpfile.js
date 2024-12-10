@@ -4,6 +4,7 @@ import sass from 'gulp-dart-sass';
 import postcss from 'gulp-postcss';
 import autoprefixer from 'autoprefixer';
 import browser from 'browser-sync';
+import replace from 'gulp-replace';
 
 // Styles
 
@@ -14,6 +15,7 @@ export const styles = () => {
     .pipe(postcss([
       autoprefixer()
     ]))
+    .pipe(replace('../../img/', '../img/'))
     .pipe(gulp.dest('source/css', { sourcemaps: '.' }))
     .pipe(browser.stream());
 }
