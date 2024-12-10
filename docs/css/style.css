@@ -353,7 +353,7 @@ legend {
 }
 
 .commercial {
-  background-image: url("../../img/comercial-bg.png");
+  background-image: url("/img/comercial-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -367,7 +367,7 @@ legend {
 .commercial__icon {
   width: 78px;
   height: 80px;
-  background-image: url("../../img/icons/icon-gift.svg");
+  background-image: url("/img/icons/icon-gift.svg");
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 58px;
@@ -637,7 +637,7 @@ legend {
   display: block;
   width: 18px;
   height: 14px;
-  background-image: url("../../img/icons/ok.svg");
+  background-image: url("/img/icons/ok.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -667,14 +667,14 @@ legend {
 }
 
 .form__input[type=email] {
-  background-image: url("../../img/icons/icon-email.svg");
+  background-image: url("/img/icons/icon-email.svg");
   background-repeat: no-repeat;
   background-position: right 17px center;
   padding-right: 40px;
 }
 
 .form__input[type=number] {
-  background-image: url("../../img/icons/icon-phone.svg");
+  background-image: url("/img/icons/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: right 17px center;
   padding-right: 40px;
@@ -718,7 +718,7 @@ legend {
   line-height: 0;
   width: 24px;
   height: 16px;
-  background-image: url("../../img/icons/burger.svg");
+  background-image: url("/img/icons/burger.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -766,7 +766,7 @@ legend {
   display: block;
 }
 .main-nav.active .main-nav__toggle {
-  background-image: url("../../img/icons/icon-cross.svg");
+  background-image: url("/img/icons/icon-cross.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -848,7 +848,7 @@ legend {
   top: -10px;
   width: 50px;
   height: 53px;
-  background-image: url("../../img/icons/cat-back-slim.svg");
+  background-image: url("/img/icons/cat-back-slim.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -862,7 +862,7 @@ legend {
   top: -6px;
   width: 67px;
   height: 50px;
-  background-image: url("../../img/icons/cat-back-pro.svg");
+  background-image: url("/img/icons/cat-back-pro.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -888,7 +888,7 @@ legend {
   display: block;
   width: 24px;
   height: 12px;
-  background-image: url("../../img/icons/link-arrow.svg");
+  background-image: url("/img/icons/link-arrow.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -932,7 +932,7 @@ legend {
   right: 0;
   top: 0;
   height: 302px;
-  background-image: url("../../img/index-bg-mobile.jpg");
+  background-image: url("/img/index-bg-mobile.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
