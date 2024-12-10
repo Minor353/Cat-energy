@@ -1,7 +1,3 @@
-.contacts {
-  margin: 0 -20px;
-  padding: 0 20px;
-}
 
 .contacts__address {
   display: flex;
@@ -30,6 +26,7 @@
   margin: 0 -20px;
   img {
     display: block;
+    object-fit: cover;
   }
 }
 

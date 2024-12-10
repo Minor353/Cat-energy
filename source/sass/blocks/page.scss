@@ -4,7 +4,6 @@
 
 .page__body {
   margin: 0;
-  padding: 0 20px;
   min-height: 100%;
   font-family: "oswald", sans-serif;
   font-weight: 400;
@@ -13,8 +12,6 @@
   color: $special_dark-grey;
   position: relative;
   background-color: $white;
-
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
 }

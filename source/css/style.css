@@ -42,10 +42,16 @@ legend {
   overflow: hidden;
 }
 
+.wrapper {
+  padding: 0 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 .advertisement {
   background-color: #EAEAEA;
-  margin: 0 -20px;
-  padding: 25px 20px 40px;
+  padding: 25px 0 40px;
 }
 
 .advertisement__title {
@@ -197,9 +203,9 @@ legend {
   height: 2px;
   background-color: #68B738;
   position: absolute;
-  left: 0;
+  width: 50%;
   top: 39px;
-  right: -20px;
+  right: 0;
   z-index: 1;
 }
 
@@ -377,11 +383,6 @@ legend {
   text-align: center;
 }
 
-.contacts {
-  margin: 0 -20px;
-  padding: 0 20px;
-}
-
 .contacts__address {
   display: flex;
   align-items: center;
@@ -410,6 +411,7 @@ legend {
 }
 .contacts__map img {
   display: block;
+  object-fit: cover;
 }
 
 .contacts--grey {
@@ -458,8 +460,7 @@ legend {
 
 .footer {
   background-color: #F2F2F2;
-  margin: 0 -20px;
-  padding: 22px 20px;
+  padding: 22px 0;
 }
 
 .footer__secondary-logo {
@@ -693,10 +694,13 @@ legend {
 }
 
 .main-header {
+  padding: 10px 0 17px;
+}
+
+.main-header__wrapper {
   display: flex;
   align-items: center;
-  padding: 10px 0 17px;
-  overflow-x: hidden;
+  position: relative;
 }
 
 .main-logo {
@@ -707,10 +711,6 @@ legend {
 
 .main-logo__name {
   margin: 0 auto;
-}
-
-.main-nav {
-  position: relative;
 }
 
 .main-nav__toggle {
@@ -731,7 +731,45 @@ legend {
 
 .main-nav__list {
   position: absolute;
+  left: -20px;
+  right: -20px;
+  top: 54px;
+  padding: 0;
+  margin: 0;
+  z-index: 9;
+  border-bottom: 1px solid #E6E6E6;
   display: none;
+}
+
+.main-nav__item {
+  list-style-type: none;
+  width: 100%;
+}
+
+.main-nav__link {
+  display: block;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 22px 20px 24px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid #E6E6E6;
+}
+
+.main-nav.active .main-nav__list {
+  display: block;
+}
+.main-nav.active .main-nav__toggle {
+  background-image: url("../../img/icons/icon-cross.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .main {
@@ -744,7 +782,6 @@ legend {
 
 .page__body {
   margin: 0;
-  padding: 0 20px;
   min-height: 100%;
   font-family: "oswald", sans-serif;
   font-weight: 400;
@@ -755,7 +792,6 @@ legend {
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
 }
 
 .program__title {
