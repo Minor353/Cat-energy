@@ -1,0 +1,35 @@
+
+.contacts__address {
+  display: flex;
+  align-items: center;
+  padding: 26px 20px;
+  margin: 0 -20px;
+}
+
+.contacts__address-title {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $black;
+  padding-right: 10px;
+}
+
+.contacts__address-text {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.contacts__map {
+  margin: 0 -20px;
+  img {
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.contacts--grey {
+  background-color: $basic_grey;
+}

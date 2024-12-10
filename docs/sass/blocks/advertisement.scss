@@ -1,0 +1,127 @@
+.advertisement {
+  background-color: #EAEAEA;
+  padding: 25px 0 40px;
+}
+
+.advertisement__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  color: $black;
+}
+
+.advertisement__text {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.advertisement__data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.advertisement__data-item:nth-child(3) {
+  width: 100%;
+  text-align: center;
+  color: $black;
+  text-transform: uppercase;
+  margin-top: 34px;
+}
+
+.advertisement__data-item:nth-child(1) {
+  margin-right: 32px;
+}
+
+.advertisement__data-item:nth-child(1), .advertisement__data-item:nth-child(2) {
+  border: 1px solid $special_grey;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  width: 124px;
+  padding: 14px;
+  box-sizing: border-box;
+
+  span:nth-child(1) {
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 24px;
+    color: $black;
+    margin-bottom: 7px;
+  }
+
+  span:nth-child(2) {
+    font-size: 12px;
+    line-height: 12px;
+    background-color: #EAEAEA;
+    width: 87px;
+    box-sizing: border-box;
+    padding: 0 14px;
+    margin: 0 auto;
+    margin-bottom: -28px;
+    text-align: center;
+  }
+}
+
+.advertisement__toggler-image {
+  display: flex;
+  img {
+    margin: 0 auto;
+  }
+}
+
+.advertisement__toggler-image--none {
+  display: none;
+}
+
+.advertisement__toggler-box {
+  margin-bottom: 15px;
+}
+
+
+
+.advertisement__toggler-range {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advertisement__toggler-range-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.advertisement__toggler-range-button {
+  display: flex;
+  align-items: center;
+  border: 1px solid $special_grey;
+  border-radius: 6px;
+  height: 14px;
+  width: 85px;
+  background-color: $white;
+  margin: 0 15px;
+  box-sizing: border-box;
+  padding: 4px 6px;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: $basic_green;
+  }
+}
+
+.advertisement__toggler-range-button--after {
+  &::after {
+    content: '';
+    margin-left: auto;
+  }
+}
