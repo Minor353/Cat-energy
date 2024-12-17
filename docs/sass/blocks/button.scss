@@ -9,6 +9,12 @@
   text-transform: uppercase;
   text-align: center;
   box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    padding: 14px 26px;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .button--big {

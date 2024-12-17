@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cat Energy</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" href="apple.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico">
 </head>
 <body class="page__body">
   <header class="main-header">
@@ -135,9 +138,9 @@
       <div class="wrapper">
         <h2 class="visually-hidden">Контакты компании</h2>
         <div class="contacts__address">
-          <h3 class="contacts__address-title">приглашаем к сотрудничеству дилеров!</h3>
-          <p class="contacts__address-text">ул. Большая
-            Конюшенная, д. 19/8
+          <h3 class="contacts__address-title">приглашаем<br> к сотрудничеству дилеров!</h3>
+          <p class="contacts__address-text">ул. Большая<br>
+            Конюшенная, д. 19/8<br>
             Санкт-Петербург</p>
         </div>
         <div class="contacts__map">
@@ -147,7 +150,7 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="wrapper">
+    <div class="wrapper footer__wrapper">
       <a class="secondary-logo footer__secondary-logo" href="#">
         <img src="img/icons/footer-logo.svg" width="128px" height="24px" alt="Название компании">
       </a>
@@ -174,5 +177,14 @@
       </a>
     </div>
   </footer>
+
+  <script>
+    const navMain = document.querySelector('.main-nav');
+    const navToggle = document.querySelector('.main-nav__toggle');
+
+    navToggle.addEventListener('click', function() {
+        navMain.classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
