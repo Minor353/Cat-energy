@@ -3,4 +3,8 @@
   max-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px;
+  }
 }

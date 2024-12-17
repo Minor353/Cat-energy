@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   flex-grow: 1;
-}
 
-.main-logo__name {
-  margin: 0 auto;
+  @media (min-width: $tablet-width) {
+    flex-grow: 0;
+  }
 }

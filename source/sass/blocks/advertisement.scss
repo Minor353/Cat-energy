@@ -1,6 +1,14 @@
 .advertisement {
   background-color: #EAEAEA;
   padding: 25px 0 40px;
+
+  @media (min-width: $tablet-width) {
+    background-color: transparent;
+    border-top: 1px solid #E6E6E6;
+    padding: 43px 0 56px;
+
+    background-image: linear-gradient(to top, #EAEAEA 40%, transparent 40%);
+  }
 }
 
 .advertisement__title {
@@ -10,12 +18,22 @@
   line-height: 40px;
   font-weight: 400;
   color: $black;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 63px;
+  }
 }
 
 .advertisement__text {
   margin: 0;
   margin-bottom: 20px;
   font-family: Arial, Helvetica, sans-serif;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 54px;
+  }
 }
 
 .advertisement__data {
@@ -23,6 +41,10 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    justify-content: flex-start;
+  }
 }
 
 .advertisement__data-item:nth-child(3) {
@@ -31,10 +53,24 @@
   color: $black;
   text-transform: uppercase;
   margin-top: 34px;
+
+  @media (min-width: $tablet-width) {
+    width: 170px;
+    text-align: right;
+    margin: 0;
+    margin-left: auto;
+    span {
+      display: block;
+    }
+  }
 }
 
 .advertisement__data-item:nth-child(1) {
   margin-right: 32px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 42px;
+  }
 }
 
 .advertisement__data-item:nth-child(1), .advertisement__data-item:nth-child(2) {
@@ -42,9 +78,15 @@
   border-radius: 3px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 124px;
   padding: 14px;
   box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    width: 162px;
+    padding: 15px 20px 20px;
+  }
 
   span:nth-child(1) {
     margin: 0 auto;
@@ -52,6 +94,11 @@
     line-height: 24px;
     color: $black;
     margin-bottom: 7px;
+
+    @media (min-width: $tablet-width) {
+      font-size: 30px;
+      line-height: 37px;
+    }
   }
 
   span:nth-child(2) {
@@ -64,8 +111,19 @@
     margin: 0 auto;
     margin-bottom: -28px;
     text-align: center;
+
+    @media (min-width: $tablet-width) {
+      background-color: $white;
+      font-size: 14px;
+      line-height: 14px;
+      width: 120px;
+      padding: 0 10px;
+      margin-bottom: -26px;
+    }
   }
 }
+
+
 
 .advertisement__toggler-image {
   display: flex;

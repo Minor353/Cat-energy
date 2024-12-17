@@ -13,6 +13,12 @@
   display: flex;
   flex-direction: column;
 
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    align-items: flex-start;
+    min-height: auto;
+  }
+
   &::after {
     content: '';
     display: block;
@@ -26,6 +32,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
+
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
   }
 }
 
@@ -35,15 +45,33 @@
   font-size: 36px;
   line-height: 36px;
   font-weight: 400;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    color: $black;
+    margin-bottom: 41px;
+    max-width: 415px;
+  }
 }
 
 .top-section__text {
   margin: 0;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    color: $black;
+  }
 }
 
 .top-section__button {
   margin-top: auto;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 49px;
+  }
 }
 
 .top-section__decoration {
@@ -51,4 +79,15 @@
   top: 167px;
   left: 50%;
   transform: translateX(-50%);
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $tablet-width) {
+    position: static;
+    transform: none;
+    margin: 0 auto;
+  }
 }

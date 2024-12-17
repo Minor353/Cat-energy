@@ -7,3 +7,11 @@
   align-items: center;
   position: relative;
 }
+
+.main-header__logo-name {
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+}
