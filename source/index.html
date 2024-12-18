@@ -13,7 +13,11 @@
   <header class="main-header">
     <div class="wrapper main-header__wrapper">
       <a href="#" class="main-logo">
-        <img class="main-logo__image" width="33px" height="37px" src="img/icons/logo-mobile.svg" alt="Логотип Cat Energy">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/icons/logo-desktop.svg">
+          <source media="(min-width: 700px)" srcset="img/icons/logo-tablet.svg">
+          <img class="main-logo__image" width="33px" height="37px" src="img/icons/logo-mobile.svg" alt="Логотип Cat Energy">
+        </picture>
         <img class="main-logo__name main-header__logo-name" width="101px" height="18px" src="img/icons/logo-mobile-text.svg" alt="Cat Energy">
       </a>
       <nav class="main-nav">
@@ -37,7 +41,11 @@
           <a class="button top-section__button" href="#">подобрать программу</a>
         </div>
         <div class="top-section__decoration">
-          <img class="top-section__image" width="280px" height="270px" src="img/index-can-mobile.png" alt="Банка с кормом">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/index-can.png">
+            <source media="(min-width: 700px)" srcset="img/index-can-tablet.png">
+            <img class="top-section__image" width="280px" height="270px" src="img/index-can-mobile.png" alt="Банка с кормом">
+          </picture>
         </div>
       </div>
     </section>

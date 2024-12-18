@@ -13,14 +13,18 @@
   <header class="main-header">
     <div class="wrapper main-header__wrapper">
       <a href="#" class="main-logo">
-        <img class="main-logo__image" width="33px" height="37px" src="img/icons/logo-mobile.svg" alt="Логотип Cat Energy">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/icons/logo-desktop.svg">
+          <source media="(min-width: 700px)" srcset="img/icons/logo-tablet.svg">
+          <img class="main-logo__image" width="33px" height="37px" src="img/icons/logo-mobile.svg" alt="Логотип Cat Energy">
+        </picture>
         <img class="main-logo__name main-header__logo-name" width="101px" height="18px" src="img/icons/logo-mobile-text.svg" alt="Cat Energy">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">открыть</button>
         <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="index.html" class="main-nav__link">главная</a></li>
-          <li class="main-nav__item"><a href="" class="main-nav__link">каталог продукции</a></li>
+          <li class="main-nav__item"><a href="" class="main-nav__link">главная</a></li>
+          <li class="main-nav__item"><a href="catalog.html" class="main-nav__link">каталог продукции</a></li>
           <li class="main-nav__item"><a href="form.html" class="main-nav__link">подбор программы</a></li>
         </ul>
       </nav>

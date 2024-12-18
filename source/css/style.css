@@ -191,6 +191,21 @@ legend {
 .advertisement__toggler-image img {
   margin: 0 auto;
 }
+@media (min-width: 700px) {
+  .advertisement__toggler-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+  }
+  .advertisement__toggler-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}
 
 .advertisement__toggler-image--none {
   display: none;
@@ -198,6 +213,15 @@ legend {
 
 .advertisement__toggler-box {
   margin-bottom: 15px;
+}
+@media (min-width: 700px) {
+  .advertisement__toggler-box {
+    position: relative;
+    width: 592px;
+    height: 511px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
 }
 
 .advertisement__toggler-range {
@@ -232,11 +256,6 @@ legend {
   height: 6px;
   border-radius: 6px;
   background-color: #68B738;
-}
-
-.advertisement__toggler-range-button--after::after {
-  content: "";
-  margin-left: auto;
 }
 
 .button {
@@ -892,11 +911,6 @@ legend {
 .main-header__logo-name {
   margin: 0 auto;
 }
-@media (min-width: 700px) {
-  .main-header__logo-name {
-    margin: 0;
-  }
-}
 
 .main-logo {
   display: flex;
@@ -906,6 +920,19 @@ legend {
 @media (min-width: 700px) {
   .main-logo {
     flex-grow: 0;
+  }
+}
+
+@media (min-width: 700px) {
+  .main-logo__image {
+    width: 174px;
+    height: 52px;
+  }
+}
+
+@media (min-width: 700px) {
+  .main-logo__name {
+    display: none;
   }
 }
 
@@ -1213,6 +1240,7 @@ legend {
     text-align: left;
     align-items: flex-start;
     min-height: auto;
+    padding: 27px 87px;
   }
 }
 .top-section__content::after {
@@ -1288,6 +1316,15 @@ legend {
     position: static;
     transform: none;
     margin: 0 auto;
+    margin-top: -80px;
+  }
+}
+
+@media (min-width: 700px) {
+  .top-section__image {
+    height: 609px;
+    width: 100%;
+    object-fit: contain;
   }
 }
 /*# sourceMappingURL=style.css.map */

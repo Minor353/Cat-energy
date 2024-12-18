@@ -17,6 +17,7 @@
     text-align: left;
     align-items: flex-start;
     min-height: auto;
+    padding: 27px 87px;
   }
 
   &::after {
@@ -89,5 +90,14 @@
     position: static;
     transform: none;
     margin: 0 auto;
+    margin-top: -80px;
+  }
+}
+
+.top-section__image {
+  @media (min-width: $tablet-width) {
+    height: 609px;
+    width: 100%;
+    object-fit: contain;
   }
 }
