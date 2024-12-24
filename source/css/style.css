@@ -1220,6 +1220,15 @@ legend {
   margin-right: 33px;
 }
 
+.social__link svg.icon-facebook {
+  fill: none;
+  stroke: #666666;
+}
+
+.social__link:hover svg {
+  stroke: #68B738;
+}
+
 .top-section {
   position: relative;
   margin-bottom: 20px;

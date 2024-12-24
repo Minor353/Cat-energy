@@ -13,7 +13,11 @@
   <header class="main-header">
     <div class="wrapper main-header__wrapper">
       <a href="#" class="main-logo">
-        <img class="main-logo__image" width="33px" height="37px" src="img/icons/logo-mobile.svg" alt="Логотип Cat Energy">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/icons/logo-desktop.svg">
+          <source media="(min-width: 700px)" srcset="img/icons/logo-tablet.svg">
+          <img class="main-logo__image" width="33px" height="37px" src="img/icons/logo-mobile.svg" alt="Логотип Cat Energy">
+        </picture>
         <img class="main-logo__name main-header__logo-name" width="101px" height="18px" src="img/icons/logo-mobile-text.svg" alt="Cat Energy">
       </a>
       <nav class="main-nav">
@@ -37,7 +41,15 @@
           <a class="button top-section__button" href="#">подобрать программу</a>
         </div>
         <div class="top-section__decoration">
-          <img class="top-section__image" width="280px" height="270px" src="img/index-can-mobile.png" alt="Банка с кормом">
+          <picture>
+            <source type="image/webp" media="(min-width: 1200px)" srcset="img/index-can.webp">
+            <source type="image/webp" media="(min-width: 700px)" srcset="img/index-can-tablet.webp">
+            <source type="image/webp" srcset="img/index-can-mobile.webp">
+
+            <source media="(min-width: 1200px)" srcset="img/index-can.png">
+            <source media="(min-width: 700px)" srcset="img/index-can-tablet.png">
+            <img class="top-section__image" width="280px" height="270px" src="img/index-can-mobile.png" alt="Банка с кормом">
+          </picture>
         </div>
       </div>
     </section>
@@ -152,22 +164,30 @@
   <footer class="footer">
     <div class="wrapper footer__wrapper">
       <a class="secondary-logo footer__secondary-logo" href="#">
-        <img src="img/icons/footer-logo.svg" width="128px" height="24px" alt="Название компании">
+        <svg width="128px" height="24px">
+          <use xlink:href="img/sprite.svg#footer-logo"></use>
+        </svg>
       </a>
       <ul class="social footer__social">
         <li class="social__item">
           <a class="social__link" href="#">
-            <img src="img/icons/icon-vkontakte.svg" width="23px" height="16px" alt="vk">
+            <svg width="23px" height="16px">
+              <use xlink:href="img/sprite.svg#icon-vkontakte"></use>
+            </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="#">
-            <img src="img/icons/icon-instagram.svg" width="16px" height="16px" alt="insta">
+            <svg width="16px" height="16px">
+              <use xlink:href="img/sprite.svg#icon-instagram"></use>
+            </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="#">
-            <img src="img/icons/icon-facebook.svg" width="22px" height="22px" alt="fb">
+            <svg class="icon-facebook" width="22px" height="22px">
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
+            </svg>
           </a>
         </li>
       </ul>

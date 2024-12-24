@@ -12,7 +12,7 @@
 <body class="page__body">
   <header class="main-header">
     <div class="wrapper main-header__wrapper">
-      <a href="#" class="main-logo">
+      <a href="index.html" class="main-logo">
         <picture>
           <source media="(min-width: 1200px)" srcset="img/icons/logo-desktop.svg">
           <source media="(min-width: 700px)" srcset="img/icons/logo-tablet.svg">
@@ -23,7 +23,7 @@
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">открыть</button>
         <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="" class="main-nav__link">главная</a></li>
+          <li class="main-nav__item"><a href="index.html" class="main-nav__link">главная</a></li>
           <li class="main-nav__item"><a href="catalog.html" class="main-nav__link">каталог продукции</a></li>
           <li class="main-nav__item"><a href="form.html" class="main-nav__link">подбор программы</a></li>
         </ul>
@@ -276,24 +276,32 @@
     </section>
   </main>
   <footer class="footer">
-    <div class="wrapper">
+    <div class="wrapper footer__wrapper">
       <a class="secondary-logo footer__secondary-logo" href="#">
-        <img src="img/icons/footer-logo.svg" width="128px" height="24px" alt="Название компании">
+        <svg width="128px" height="24px">
+          <use xlink:href="img/sprite.svg#footer-logo"></use>
+        </svg>
       </a>
       <ul class="social footer__social">
         <li class="social__item">
           <a class="social__link" href="#">
-            <img src="img/icons/icon-vkontakte.svg" width="23px" height="16px" alt="vk">
+            <svg width="23px" height="16px">
+              <use xlink:href="img/sprite.svg#icon-vkontakte"></use>
+            </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="#">
-            <img src="img/icons/icon-instagram.svg" width="16px" height="16px" alt="insta">
+            <svg width="16px" height="16px">
+              <use xlink:href="img/sprite.svg#icon-instagram"></use>
+            </svg>
           </a>
         </li>
         <li class="social__item">
           <a class="social__link" href="#">
-            <img src="img/icons/icon-facebook.svg" width="22px" height="22px" alt="fb">
+            <svg width="22px" height="22px">
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
+            </svg>
           </a>
         </li>
       </ul>

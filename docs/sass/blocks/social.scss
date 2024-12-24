@@ -12,3 +12,13 @@
     margin-right: 33px;
   }
 }
+
+.social__link svg.icon-facebook {
+  fill: none;
+  stroke: #666666;
+}
+
+.social__link:hover svg {
+  stroke: $basic_green;
+}
+
